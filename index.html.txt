@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kusurlu Güzellik AR</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<video id="camera" autoplay playsinline></video>
+
+<div class="overlay">
+  <img src="eyes.png" class="eyes">
+  <img src="cheeks.png" class="cheeks">
+  <img src="lips.png" class="lips">
+</div>
+
+<div class="text">
+  Bugün biraz yamuk uyandım ama vitamin yerinde.
+</div>
+
+<button onclick="playSound()">🔊 Dinle</button>
+
+<audio id="sound" src="vitamin.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
